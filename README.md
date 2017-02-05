@@ -29,5 +29,5 @@ docker run --rm -d --name testrpc -p 8545 desmart/testrpc:latest
 And then run `truffle` tests:
 
 ```bash
-docker run --rm -v "${PWD}:/usr/src/app" --link testrpc -e "RPC_HOST=testrpc" 
+docker run --rm -v "${PWD}:/usr/src/app" --link testrpc -e "RPC_HOST=testrpc" desmart/truffle:latest test
 ```
