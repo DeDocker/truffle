@@ -3,7 +3,8 @@ Docker image of Truffle - simple development framework for Ethereum
 
 # Supported tags and respective `Dockerfile` links
 
-* `3.0`, `latest` [(Dockerfile)](https://github.com/DeDocker/truffle/blob/master/3.0/Dockerfile)
+* `3.2`, `latest` [(Dockerfile)](https://github.com/DeDocker/truffle/blob/master/3.2/Dockerfile)
+* `3.0` [(Dockerfile)](https://github.com/DeDocker/truffle/blob/master/3.0/Dockerfile)
 * `2.1` [(Dockerfile)](https://github.com/DeDocker/truffle/blob/master/2.1/Dockerfile)
 
 # Running tests with `testrpc`
